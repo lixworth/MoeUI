@@ -1,0 +1,28 @@
+{
+  "name": "moeui",
+  "version": "1.0.0",
+  "description": "MoeUI By BoxMoe",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "build": "gulp",
+    "doc": "node doc/server.js"
+  },
+  "author": {
+    "name": "BoxMoeStudio"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-header": "^2.0.5",
+    "gulp-rename": "^1.4.0"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
